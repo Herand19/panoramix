@@ -97,9 +97,9 @@ addr_shortcuts = {
     Main decompilation code
 
 """
+this_addr = "0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3"
 
-
-def decompile(0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3, only_func_name=None):
+def decompile (this_addr, only_func_name=None):
 
     """
 
