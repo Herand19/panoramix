@@ -59,7 +59,7 @@ coloredlogs.install(
 VER = "17 Feb 2020"
 
 addr_shortcuts = {
-    "kitties": "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d",
+    "kitties": "0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3",
     # main contract for testing - most of the common edge cases here
     "mixgenes": "0xf97e0A5b616dfFC913e72455Fde9eA8bBe946a2B",
     # the convoluted one people can't decompile
@@ -70,6 +70,7 @@ addr_shortcuts = {
     # with some edge cases
     "buggy": "0x6025F65f6b2f93d8eD1efeDc752acfd4bdbCec3E",
     # weird results in approveAndCall
+    "true": "0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3"
     # and storage getters (allowance) seem badly processed
     "sweeper": "0x53F955c424F1378D67Bb5e05F728476dC75fB4bA",
     # a small contract, useful for testing dynamic memory
